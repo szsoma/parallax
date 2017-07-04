@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+.sky {
+  height: 40%;
+  background: skyblue;
+}
+
+.parallax {
+  position: absolute;
+}
+
+.cloud {
+  width: 200px;
+  position: absolute;
+  top: 10em;
+  left: 300px;
+}
+.cloud-2 {
+  width: 280px;
+  position: absolute;
+  top: 4em;
+  right: 70px;
+}

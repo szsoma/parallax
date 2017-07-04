@@ -22,21 +22,21 @@ html, body {
 
 .cloud {
   width: 200px;
-  top:15em;
+  top: 130px;
 }
 .cloud-2 {
   width: 280px;
-  top: 8em;
+  top: 230px;
 }
 
 .tree-2 {
   width: 200px;
-  top: 17em;
+  top: 250px;
   right: 500px;
 }
 
 /*  felső  */
 .tree {
   width: 100px;
-  top: 19em;
+  top: 310px;
 }

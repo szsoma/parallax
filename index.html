@@ -20,18 +20,26 @@
   <body>
 
     <div class="sky wrapper">
-      <embed id="layer-1" class="parallax top" src="https://soma.shoprenter.hu/custom/soma/image/data/felho.svg" type="image/svg+xml" />
-      <embed id="layer-2" class="parallax left top" src="https://soma.shoprenter.hu/custom/soma/image/data/felho.svg" type="image/svg+xml" />
+      <embed id="layer-1" class="parallax top cloud" src="https://soma.shoprenter.hu/custom/soma/image/data/felho.svg" type="image/svg+xml" />
+      <embed id="layer-2" class="parallax left top cloud-2" src="https://soma.shoprenter.hu/custom/soma/image/data/felho.svg" type="image/svg+xml" />
+      <embed id="layer-3" class="parallax bottom right tree" src="https://soma.shoprenter.hu/custom/soma/image/data/fa.svg" type="image/svg+xml" />
+      <embed id="layer-4" class="parallax bottom tree-2" src="https://soma.shoprenter.hu/custom/soma/image/data/fa.svg" type="image/svg+xml" />
+    </div>
+    <div class="grass">
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="jquery.parallaxmouse.js"></script>
     <script>
     $(window).parallaxmouse({
-    elms: [
-      {el: $('#layer-1'), rate: 0.2},
-      {el: $('#layer-2'), rate: 0.4},
-    ]
+      invert: true,
+      range: 300,
+      elms: [
+        {el: $('#layer-1'), rate: 0.2},
+        {el: $('#layer-2'), rate: 0.4},
+        {el: $('#layer-3'), rate: 0.6},
+        {el: $('#layer-4'), rate: 0.1},
+      ]
 });
     </script>
 

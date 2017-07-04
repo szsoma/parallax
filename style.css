@@ -11,19 +11,32 @@ html, body {
   background: skyblue;
 }
 
+.grass {
+  height: 30%;
+  background: seagreen;
+}
+
 .parallax {
   position: absolute;
 }
 
 .cloud {
   width: 200px;
-  position: absolute;
-  top: 10em;
-  left: 300px;
+  top:15em;
 }
 .cloud-2 {
   width: 280px;
-  position: absolute;
-  top: 4em;
-  right: 70px;
+  top: 8em;
+}
+
+.tree-2 {
+  width: 200px;
+  top: 17em;
+  right: 500px;
+}
+
+/*  felső  */
+.tree {
+  width: 100px;
+  top: 19em;
 }

@@ -6,6 +6,12 @@ html, body {
   text-align: center;
 }
 
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: #555;
+}
+
 .sky {
   height: 40%;
   background: skyblue;

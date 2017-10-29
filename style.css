@@ -7,13 +7,13 @@ html, body {
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   fill: #555;
 }
 
 .sky {
-  height: 40%;
+  height: 38%;
   background: skyblue;
 }
 
